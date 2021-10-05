@@ -1,4 +1,5 @@
 import { HttpClient } from '@angular/common/http';
+import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
 
 export interface GitHubUser {
@@ -6,8 +7,10 @@ export interface GitHubUser {
   avatar_url: string;
   login: string;
   score: string;
+  items: [];
 }
 
+@Injectable()
 export class GitHubService {
   constructor(private _http: HttpClient) {}
 
