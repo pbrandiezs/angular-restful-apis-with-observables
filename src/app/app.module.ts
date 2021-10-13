@@ -6,6 +6,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './app.component';
 import { routing } from './app.routing';
 import { GitHubComponent } from './github.component';
+import { GitHubUserComponent } from './githubuser.component';
 import { HomeComponent } from './home.component';
 import { NotFoundComponent } from './notfound.component';
 
@@ -14,7 +15,8 @@ import { NotFoundComponent } from './notfound.component';
     AppComponent,
     HomeComponent,
     NotFoundComponent,
-    GitHubComponent
+    GitHubComponent,
+    GitHubUserComponent
   ],
   imports: [
     BrowserModule,
