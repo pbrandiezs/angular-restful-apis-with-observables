@@ -6,7 +6,7 @@ import { FormControl } from '@angular/forms';
 
 @Component({
   selector: 'github',
-  templateUrl: './app.component.html',
+  templateUrl: '../app.component.html',
   // `
   //   <input class="form-control" type="search" [formControl]="searchControl">
   //   <h3>GitHub User Results</h3>

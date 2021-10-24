@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { GitHubService } from './github.service';
+import { GitHubService } from './github/github.service';
 import { filter, debounceTime, distinctUntilChanged } from 'rxjs/operators';
 import { FormControl } from '@angular/forms';
 
